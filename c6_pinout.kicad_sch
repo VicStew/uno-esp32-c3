@@ -5259,6 +5259,17 @@
 		)
 		(uuid "10160f4d-ad62-4a9c-b7ba-feabff51d56a")
 	)
+	(hierarchical_label "EN"
+		(shape input)
+		(at 182.88 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "29b1fd93-91af-46ab-984a-8b5c543d4f4a")
+	)
 	(hierarchical_label "IO12_DB_N"
 		(shape input)
 		(at 246.38 45.72 0)
