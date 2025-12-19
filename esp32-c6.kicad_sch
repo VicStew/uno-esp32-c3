@@ -4701,7 +4701,7 @@
 		)
 		(uuid "02bf41ff-978a-45e7-8d2e-cdc8ef59e3c0")
 	)
-	(label "IO13_DB_P"
+	(label "DB_P"
 		(at 77.47 219.71 180)
 		(effects
 			(font
@@ -4832,7 +4832,7 @@
 		(uuid "c0e18b49-d953-47e2-a67e-e354a2e69015")
 	)
 	(label "DA_P"
-		(at 158.75 100.33 0)
+		(at 165.1 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4861,7 +4861,7 @@
 		)
 		(uuid "e32593d5-f348-4d2a-a9af-9a0fc6478ea8")
 	)
-	(label "IO12_DB_N"
+	(label "IO12_N"
 		(at 87.63 214.63 180)
 		(effects
 			(font
@@ -4872,7 +4872,7 @@
 		(uuid "ebad099b-1568-434d-9e35-e03310c9f498")
 	)
 	(label "DA_N"
-		(at 158.75 97.79 0)
+		(at 165.1 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4913,6 +4913,28 @@
 			)
 		)
 	)
+	(global_label "DB_N"
+		(shape input)
+		(at 87.63 214.63 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6dc5b4e8-e231-4ee7-958e-09be4f584342")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 87.63 206.8067 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "IO8"
 		(shape input)
 		(at 125.73 245.11 180)
@@ -4931,6 +4953,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DB_P"
+		(shape input)
+		(at 77.47 219.71 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8a927341-4b67-4985-a870-787ec80b7b2e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 77.47 211.9472 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4956,6 +5000,130 @@
 			(justify left)
 		)
 		(uuid "6bc48340-47cd-4d1e-9e0c-3cd93e2d98c4")
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 158.75 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "10bfc7c9-1d23-4089-be18-a6e1ef4f759d")
+		(property "Netclass" "usb"
+			(at 159.4485 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -35.56 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 158.75 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bb68da42-efe3-4369-ad89-a7e92d6b30d6")
+		(property "Netclass" "usb"
+			(at 159.4485 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -35.56 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 102.87 140.97 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cb5181e6-0980-4fa4-a177-b63575fab066")
+		(property "Netclass" "usb"
+			(at 103.5685 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -5.08 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 102.87 138.43 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "db8146e5-33d9-4ae6-bf32-62298b095f1c")
+		(property "Netclass" "usb"
+			(at 103.5685 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -5.08 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")

@@ -2353,12 +2353,6 @@
 		(uuid "c590c216-bcea-4052-8f13-257a8be287f6")
 	)
 	(junction
-		(at 104.14 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f2c30e2c-b0e1-4795-86a0-0520f2b86aa6")
-	)
-	(junction
 		(at 52.07 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2534,16 +2528,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 140.97) (xy 104.14 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ecd8cae-940f-4e74-8881-6826a29237ab")
-	)
-	(wire
-		(pts
 			(xy 66.04 152.4) (xy 66.04 154.94)
 		)
 		(stroke
@@ -2574,17 +2558,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 149.86) (xy 104.14 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52fc4700-fa4a-4044-8624-8d0bb9dcd1dd")
-	)
-	(wire
-		(pts
-			(xy 92.71 152.4) (xy 104.14 152.4)
+			(xy 92.71 152.4) (xy 115.57 152.4)
 		)
 		(stroke
 			(width 0)
@@ -2621,16 +2595,6 @@
 			(type default)
 		)
 		(uuid "5afefcc6-f280-452b-9c08-79f1cac8cede")
-	)
-	(wire
-		(pts
-			(xy 104.14 152.4) (xy 115.57 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5bc41014-5e9a-4ba9-8ccf-969c69901cfd")
 	)
 	(wire
 		(pts
@@ -3721,7 +3685,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "V_IN"
+		(property "Value" "VIN"
 			(at 44.45 21.59 0)
 			(effects
 				(font
@@ -4221,76 +4185,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:PMEG6020AELR")
-		(at 104.14 146.05 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3506d447-e680-460d-99a8-a4602dec296b")
-		(property "Reference" "D10"
-			(at 101.6 145.0974 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "PMEG6020AELR"
-			(at 101.6 147.6374 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
-			(at 99.695 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG6020AELR.pdf"
-			(at 104.14 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "60V, 2A low leakage current MEGA Schottky barrier rectifier, SOD-123W"
-			(at 104.14 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "657b4576-5a36-4d7a-b9e6-4621f3fc7709")
-		)
-		(pin "2"
-			(uuid "79ba1e22-20cd-41e5-9f72-2afebac29250")
-		)
-		(instances
-			(project "esp32-c6"
-				(path "/98d6a3bc-4267-493f-8210-1fe038eb9de4/9ae47cac-932a-49fb-9366-e71a08cd92a9"
-					(reference "D10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 100.33 90.17 0)
 		(unit 1)
@@ -4421,72 +4315,6 @@
 			(project "esp32-c6"
 				(path "/98d6a3bc-4267-493f-8210-1fe038eb9de4/9ae47cac-932a-49fb-9366-e71a08cd92a9"
 					(reference "#PWR042")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 104.14 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "620e2b74-b32c-4f89-9ebd-03971563da49")
-		(property "Reference" "#PWR038"
-			(at 104.14 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 104.14 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 104.14 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 104.14 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "af04a845-a421-4697-a03a-bcb60cc39409")
-		)
-		(instances
-			(project ""
-				(path "/98d6a3bc-4267-493f-8210-1fe038eb9de4/9ae47cac-932a-49fb-9366-e71a08cd92a9"
-					(reference "#PWR038")
 					(unit 1)
 				)
 			)
