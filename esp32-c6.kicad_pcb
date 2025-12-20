@@ -18919,7 +18919,7 @@
 			(at -2.485 -0.9 90)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "8d4b6d1d-ce97-4749-a2f5-e255d5d86fca")
+			(uuid "8e08be87-fc6b-490e-baac-aa94ffea8ebd")
 			(effects
 				(font
 					(size 1 1)
@@ -18942,7 +18942,7 @@
 		(fp_text user "*"
 			(at -0.215 -0.9 90)
 			(layer "F.Fab")
-			(uuid "6977871c-c668-4a49-8e64-964954581e16")
+			(uuid "b297d21d-f413-4d44-ad5f-218ba2fbeee2")
 			(effects
 				(font
 					(size 1 1)
@@ -19096,6 +19096,17 @@
 			(uuid "822b1098-921f-44cb-8d6e-3a1c68daffa4")
 		)
 		(embedded_fonts no)
+		(model "/home/vector/Downloads/MPQ9841GLE-AEC1 (QFN-16, 3x4).step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Diode_SMD:D_SOD-323"
 		(layer "F.Cu")
@@ -20683,9 +20694,9 @@
 		(uuid "3bae4116-564a-42bc-9aa9-f46d0fb19875")
 	)
 	(gr_arc
-		(start 205.805608 155.04375)
-		(mid 206.780928 154.639759)
-		(end 207.756248 155.04375)
+		(start 206.12468 155.04375)
+		(mid 207.1 154.639759)
+		(end 208.07532 155.04375)
 		(stroke
 			(width 0.2)
 			(type solid)
@@ -20884,9 +20895,9 @@
 		(uuid "4837d296-5db1-4699-b17f-beb3c1729d4e")
 	)
 	(gr_arc
-		(start 203.430555 152.668697)
-		(mid 206.780928 151.280927)
-		(end 210.131301 152.668697)
+		(start 203.749627 152.668697)
+		(mid 207.1 151.280927)
+		(end 210.450373 152.668697)
 		(stroke
 			(width 0.2)
 			(type solid)
@@ -21027,9 +21038,9 @@
 		(uuid "5191b4ae-4e0b-4237-b70f-2b5c6a406e6f")
 	)
 	(gr_arc
-		(start 205.255723 154.493865)
-		(mid 206.780928 153.862104)
-		(end 208.306133 154.493865)
+		(start 205.574795 154.493865)
+		(mid 207.1 153.862104)
+		(end 208.625205 154.493865)
 		(stroke
 			(width 0.2)
 			(type solid)
@@ -22198,8 +22209,8 @@
 		(uuid "89000424-61b4-4147-a912-a8087ae3c98c")
 	)
 	(gr_circle
-		(center 206.780928 156.01907)
-		(end 207.130928 156.01907)
+		(center 207.1 156.01907)
+		(end 207.45 156.01907)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -23470,9 +23481,9 @@
 		(uuid "d1096222-c0fa-494e-9742-167bfdea7e62")
 	)
 	(gr_arc
-		(start 204.705777 153.943919)
-		(mid 206.780928 153.084363)
-		(end 208.856079 153.943919)
+		(start 205.024849 153.943919)
+		(mid 207.1 153.084363)
+		(end 209.175151 153.943919)
 		(stroke
 			(width 0.2)
 			(type solid)
@@ -23528,9 +23539,9 @@
 		(uuid "d50ece6c-c79f-4ce0-80a4-5ecc18b9886b")
 	)
 	(gr_arc
-		(start 204.105812 153.343954)
-		(mid 206.780928 152.235885)
-		(end 209.456044 153.343954)
+		(start 204.424884 153.343954)
+		(mid 207.1 152.235885)
+		(end 209.775116 153.343954)
 		(stroke
 			(width 0.2)
 			(type solid)
