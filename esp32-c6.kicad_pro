@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.64,
-          "width": 0.54
+          "height": 0.199998,
+          "width": 0.85
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -488,19 +488,12 @@
         "wire_width": 6
       },
       {
-        "name": "VIN",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5
-      },
-      {
         "clearance": 0.2032,
         "diff_pair_gap": 0.2032,
         "diff_pair_width": 0.1524,
         "name": "usb",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "via_diameter": 0.762
       }
@@ -519,7 +512,7 @@
     },
     "netclass_patterns": [
       {
-        "netclass": "VIN",
+        "netclass": "Default",
         "pattern": "/Barrel Jack/VIN"
       },
       {
