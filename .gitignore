@@ -2,3 +2,7 @@ Resources/
 ~esp32-c6.kicad_sch.lck
 esp32-c6-backups/
 fp-info-cache
+Gerber/
+Gerbers.zip
+*.csv
+*.gbrjob
